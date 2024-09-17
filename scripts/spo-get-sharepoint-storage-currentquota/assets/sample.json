@@ -1,18 +1,17 @@
 [
   {
-    "name": "spo-get-sharinglinks",
+    "name": "spo-get-sharepoint-storage-currentquota",
     "source": "pnp",
-    "title": "Get sharing links within the tenant",
+    "title": "Get SharePoint Storage Usage Against Allocated Quota",
     "shortDescription": "Understand and sharing links activities within your M365 environment is crucial for maintaining security and compliance.",
-    "url": "https://pnp.github.io/script-samples/spo-get-sharinglinks/README.html",
+    "url": "https://pnp.github.io/script-samples/spo-get-sharepoint-storage-currentquota/README.html",
     "longDescription": [
-      "Effective oversight of sharing links is paramount to ensuring data security, compliance, and optimal collaboration experiences. As organizations migrate to M365 environments, they inherit powerful collaboration tools that facilitate seamless sharing of documents and resources. However, without proper governance, these capabilities can lead to unintended consequences such as data breaches, compliance violations, and loss of intellectual property. This script can help identify oversharing in preparation for Copilot for M365."
+      "it is imperative to keep an eye on its usage and take relevant actions suited to the circumstances. By default a SharePoint site is allocated 25 TB by default and OneDrive for Business site is allocated 1 TB by default. These settings can be amended manually to a different quota to control SharePoint site. The script will help to proactively monitor percent used against quota for each SharePoint site."
     ],
-    "creationDateTime": "2024-04-27",
-    "updateDateTime": "2024-07-25",
+    "creationDateTime": "2024-07-28",
+    "updateDateTime": "2024-07-28",
     "products": [
-      "SharePoint",
-      "SharingLinks"
+      "SharePoint"
     ],
     "metadata": [
       {
@@ -21,26 +20,18 @@
       }
     ],
     "categories": [
-      "Report",
-      "Security",
-      "Microsoft 365 Copilot"
+      "Report"
     ],
     "tags": [
       "modern",
       "Connect-PnPOnline",
-      "Get-PnPListItem",
-      "Get-PnPProperty",
-      "Get-PnPList",
-      "Get-PnPWeb",
-      "Get-PnPContext",
-      "Get-PnPFileSharingLink",
-      "Get-PnPFolderSharingLink"
+      "Get-PnPTenantSite"
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sharinglinks/assets/preview.png",
+        "url": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sharepoint-storage-currentquota/assets/preview.png",
         "alt": ""
       }
     ],

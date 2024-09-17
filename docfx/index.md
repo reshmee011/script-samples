@@ -4,7 +4,11 @@ plugin: insert-gallery
 
 # Script Samples
 
-Find scenarios and scripts here using tools such as ***PnP PowerShell, CLI for Microsoft 365, SPO Management Shell, Graph PowerShell SDK*** and more. Are you looking for different kind of samples? then check out the [Microsoft Adoption - Sample Solution Gallery](https://adoption.microsoft.com/sample-solution-gallery/) for all samples from the community.
+Find scenarios and scripts here using tools such as ***PnP PowerShell, CLI for Microsoft 365, SPO Management Shell, Graph PowerShell SDK*** and more. Are you looking for authoring tool in Visual Studio Code? Check out extensions
+[PnP PowerShell for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=adamwojcikit.pnp-powershell-extension) and [CLI for Microsoft 365 for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=adamwojcikit.cli-for-microsoft-365-extension)
+
+> [!div class="highlight-text highlight-text-red"] 
+> Important changes coming to the way you login into PnP PowerShell or CLI for Microsoft 365 (effective 9th September 2024) please read [Changes in PnP Management Shell registration in Microsoft 365](https://pnp.github.io/blog/post/changes-pnp-management-shell-registration/) 
 
 <section class="filter-section">
 
@@ -18,7 +22,7 @@ Find scenarios and scripts here using tools such as ***PnP PowerShell, CLI for M
 <div id="post-sample-filter-107" class="sampletype-item filter-choice" data-filter="[data-operation*='report']" title="Report Samples">Report</div>
 <div id="post-sample-filter-113" class="sampletype-item filter-choice" data-filter="[data-operation*='security']" title="Security Samples">Security</div>
 <div id="post-sample-filter-115" class="sampletype-item filter-choice" data-filter="[data-operation*='ai']" title="AI Samples">AI</div>
-<div id="post-sample-filter-115" class="sampletype-item filter-choice" data-filter="[data-operation*='copilot']" title="Copilot Samples">Copilot</div>
+<div id="post-sample-filter-115" class="sampletype-item filter-choice" data-filter="[data-operation*='copilot']" title="Microsoft 365 Copilot Samples">Copilot</div>
 </div>
 
 <div class="search-input-wrapper float-l" aria-hidden="true">
