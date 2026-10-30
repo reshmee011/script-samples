@@ -1,12 +1,12 @@
 [
   {
-    "name": "spo-herolinks-inventory",
+    "name": "spo-get-herolinks",
     "source": "pnp",
-    "title": "Hero links and legacy sharing links inventory",
-    "shortDescription": "Hero links and legacy sharing links inventory.",
-    "url": "https://pnp.github.io/script-samples/spo-herolinks-inventory/README.html",
+    "title": "Get Hero sharing links",
+    "shortDescription": "Get Hero sharing links.",
+    "url": "https://pnp.github.io/script-samples/spo-get-herolinks/README.html",
     "longDescription": [
-      "Hero links and legacy sharing links inventory."
+      "Get hero sharing links using REST API."
     ],
     "creationDateTime": "2026-10-28",
     "updateDateTime": "2026-10-28",
@@ -27,8 +27,6 @@
     "tags": [
       "modern",
       "Connect-PnPOnline",
-      "Get-PnPFolderSharingLink",
-      "Get-PnPFileSharingLink",
       "Get-PnPListItem",
       "Get-PnPList",
       "invoke-pnpsprestmethod"
@@ -37,7 +35,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-herolinks-inventory/assets/preview.png",
+        "url": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-herolinks/assets/preview.png",
         "alt": ""
       }
     ],
